@@ -79,13 +79,13 @@ class SiteLocationConfigForm extends ConfigFormBase {
       '#type' => 'textfield',
       '#title' => $this->t('Country Name'),
       '#default_value' => $config->get('country'),
-      '#required' => true,
+      '#required' => TRUE,
     ];
     $form['city'] = [
       '#type' => 'textfield',
       '#title' => $this->t('City Name'),
       '#default_value' => $config->get('city'),
-      '#required' => true,
+      '#required' => TRUE,
     ];
     $form['time_zone'] = [
       '#type' => 'select',
@@ -101,7 +101,7 @@ class SiteLocationConfigForm extends ConfigFormBase {
         'Europe/Oslo' => 'Europe/Oslo',
         'Europe/London' => 'Europe/London',
       ],
-      '#required' => true,
+      '#required' => TRUE,
     ];
     $form['submit'] = [
       '#type' => 'submit',
