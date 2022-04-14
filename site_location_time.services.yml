@@ -1,0 +1,4 @@
+services:
+  site_location_time:
+    class: Drupal\site_location_time\GetSiteLocationTime
+    arguments: ['@config.factory']

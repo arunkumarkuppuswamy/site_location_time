@@ -1,0 +1,6 @@
+name: 'Site location and Timezone'
+type: module
+description: 'A simple module for the Administrator location and Timezone settings.'
+core_version_requirement: ^8 || ^9
+package: 'Specbee'
+configure: site_location_time.settings

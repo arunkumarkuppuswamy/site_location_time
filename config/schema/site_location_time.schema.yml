@@ -1,0 +1,15 @@
+# Schema for the configuration files of the Site location time.
+
+site_location_time.settings:
+  type: config_object
+  label: 'Site Location Timezone'
+  mapping:
+    country:
+      type: string
+      label: 'Contry'
+    city:
+      type: string
+      label: 'City'
+    time_zone:
+      type: string
+      label: 'Timezone'

@@ -1,0 +1,5 @@
+site_location_time.configuration:
+  title: 'Site Location and Timezone'
+  route_name: 'site_location_time.settings'
+  parent: system.admin_config_regional
+  weight: -5
